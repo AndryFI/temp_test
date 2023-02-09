@@ -23,6 +23,7 @@ import threading
 import common_funct as cf
 import fu2clonefinder as f2cf
 from ca_config import *
+import nltk
 
 def COS_dist_calc(frs, fre, chunk_X2, chunk_fX, all_Y2, all_fY, dpath, lready_rdm, flog=None, console=0):
     try:
